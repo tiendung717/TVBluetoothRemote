@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">Close</string>
+    <string name="error">Error</string>
+
+    <!-- Bluetooth Support -->
+    <string name="bluetooth_not_supported_message">Your device does not support Bluetooth.</string>
+
+    <!-- Bluetooth Permission -->
+    <string name="permission">Permission</string>
+    <string name="bluetooth_permission_not_granted">Permission not granted</string>
+    <string name="bluetooth_permission_message">You must authorize access to Bluetooth.</string>
+    <string name="bluetooth_permission_button">Authorize</string>
+    <string name="bluetooth_permission_denied_message">You\'ve denied Bluetooth access.</string>
+
+    <!-- Bluetooth Activation -->
+    <string name="activation">Activation</string>
+    <string name="bluetooth_disabled_info">Bluetooth disabled</string>
+    <string name="bluetooth_disabled_message">The Bluetooth on your device must be enabled to connect to the remote device.</string>
+    <string name="bluetooth_enabled_button">Enable Bluetooth</string>
+
+    <!-- Bluetooth Bonded Devices -->
+    <string name="devices">Devices</string>
+    <string name="paired_devices">Paired devices</string>
+    
+    <!-- Bluetooth Pairing -->
+    <string name="pairing_a_device">Pairing a device</string>
+    <string name="available_devices">Available devices</string>
+    <string name="bluetooth_pairing_device_not_found">No device has been detected.</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- Bluetooth Connecting -->
+    <string name="connection">Connection</string>
+    <string name="bluetooth_device_connecting_message">Attempt to connect to \"%1$s\" device…</string>
+    <string name="bluetooth_device_disconnecting_message">Disconnecting \"%1$s\"…</string>
+    <string name="bluetooth_failed_to_register_app_message">Failure to register the application.</string>
+    <string name="bluetooth_failed_to_connect_to_device">The attempt to connect to the remote device failed.</string>
+    <string name="bluetooth_failed_try_again">Please try again.</string>
+
+    <!-- Remote Screen -->
+    <string name="remote">Remote</string>
+    <string name="more">More</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="direction_arrows">Direction arrows</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_black">True black for the dark theme</string>
+    <string name="theme_black_oled_info">Uses less energy on OLED screens</string>
+    <string name="dynamic_colors">Dynamic colors</string>
+    <string name="mouse_pointer_speed">Pointer speed</string>
+    <string name="invert_mouse_scrolling_direction">Invert the scrolling direction</string>
+    <string name="keyboard_and_input_field">Keyboard and input field</string>
+    <string name="clear_input_field">Clear input field after sending text</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="third_party_library">Third-party libraries</string>
+    <string name="website">Website</string>
+    <string name="source_code">Source code</string>
+
+    <!-- Keyboard -->
+    <string name="keyboard">Keyboard</string>
+    <string name="keyboard_language">Keyboard language</string>
+    <string name="keyboard_language_info">Ensure that the selected keyboard language matches the one configured on the remote device.</string>
+    <string name="keyboard_us">English (United States)</string>
+    <string name="keyboard_uk">English (United Kingdom)</string>
+    <string name="keyboard_es">Spanish</string>
+    <string name="keyboard_fr">French</string>
+    <string name="keyboard_de">German</string>
+    <string name="send">Send</string>
+    <string name="enter">Enter</string>
+    <string name="escape">Escape</string>
+    <string name="delete">Delete</string>
+
+    <!-- Remote button description -->
+    <string name="pick">Pick</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="volume_increase">Volume increase</string>
+    <string name="volume_decrease">Volume decrease</string>
+    <string name="brightness_increase">Brightness increase</string>
+    <string name="brightness_decrease">Brightness decrease</string>
+    <string name="mute">Mute</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="standby">Standby</string>
+    <string name="next_channel">Next channel</string>
+    <string name="previous_channel">Previous channel</string>
+
+    <!-- Mouse -->
+    <string name="mouse">Mouse</string>
+    <string name="mouse_click_left">Click left</string>
+    <string name="mouse_click_right">Click right</string>
+    <string name="mouse_click_middle">Click middle</string>
+    <string name="mouse_wheel_up">Swipe up</string>
+    <string name="mouse_wheel_down">Swipe down</string>
+    <string name="mouse_pad_tap">Tap</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Bluetooth HID connection</string>
+    <string name="connected_on">Connected on %1$s</string>
+
+    <!-- Help messages -->
+    <string name="help">Help</string>
+
+    <string name="help_select_device_from_list">Select the device you wish to connect with from the list of paired devices.</string>
+    <string name="help_missing_device_title">Missing device</string>
+    <string name="help_missing_device_message">If the remote device does not appear in the list of paired devices, you need to pair it by pressing the icon in the top bar.</string>
+    <string name="help_connection_initialization_error_title">Initialization error</string>
+    <string name="help_connection_initialization_error_message_1">If you encounter the errors \"%1$s\" or \"%2$s\":</string>
+    <string name="help_connection_initialization_error_check_1">• Please ensure that no other Bluetooth service is running in the background.</string>
+    <string name="help_connection_initialization_error_check_2">• Try connecting several times.</string>
+    <string name="help_connection_initialization_error_message_2">If the error persists, it\'s possible that the Bluetooth process was unexpectedly interrupted. To fix this issue, please disable the Bluetooth on your device, then re-enable it.</string>
+    <string name="help_device_failed_connection_title">Connection failure</string>
+    <string name="help_device_failed_connection_message_1">If you\'re unable to connect to the remote device, please make sure to follow the instructions below:</string>
+    <string name="help_device_failed_connection_check_1">• Ensure that the remote device operates on Android or Android TV.</string>
+    <string name="help_device_failed_connection_check_2">• Make sure that the Bluetooth function is enabled on the remote device.</string>
+    <string name="help_device_failed_connection_check_3">• Make sure that both devices are close enough to each other.</string>
+    <string name="help_device_failed_connection_message_2">If despite these checks you still cannot connect to the remote device, proceed as follows:</string>
+    <string name="help_device_failed_connection_check_5">• Unpair the two devices, both on the current device and on the remote device.</string>
+    <string name="help_device_failed_connection_check_6">• Re-pair the two devices by pressing the icon located in the top bar.</string>
+    <string name="help_device_failed_connection_message_3">If the problem persists, ensure that the Bluetooth sensor of your devices is not defective.</string>
+
+    <string name="help_paring_select_device_from_list">Select the device you want to pair with from the list of available devices.</string>
+    <string name="help_pairing_missing_device_message_1">If the device you wish to pair with does not appear, follow the instructions below:</string>
+    <string name="help_pairing_missing_device_check_1">@string/help_device_failed_connection_check_2</string>
+    <string name="help_pairing_missing_device_check_2">• Ensure that Bluetooth visibility is enabled on the remote device.</string>
+    <string name="help_pairing_missing_device_check_3">@string/help_device_failed_connection_check_3</string>
+    <string name="help_pairing_missing_device_check_location_for_android_11_or_less">• Ensure that location services are enabled on your device.</string>
+    <string name="help_pairing_connection_initialization_error_message_1">If you have successfully paired both devices but encounter errors \"%1$s\" or \"%2$s\":</string>
+    <string name="help_pairing_device_failed_connection_message_1">If you have successfully paired both devices but are unable to connect to the remote device, please make sure to follow the instructions below:</string>
+
+    <string name="help_remote_control_buttons_are_not_working_title">Remote control buttons</string>
+    <string name="help_remote_control_buttons_are_not_working_message">If the keyboard, mouse, or certain buttons are not functioning, follow the instructions below:</string>
+    <string name="help_remote_control_buttons_are_not_working_check_1">@string/help_device_failed_connection_check_1</string>
+    <string name="help_remote_control_buttons_are_not_working_check_2">• Disconnect from the remote device.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_3">• Unpair the devices, on both this device and the remote device.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_4">• Then, re-pair the two devices using this application.</string>
+    <string name="help_keyboard_wrong_character_sent_message">If the characters being sent are incorrect, you need to configure the physical keyboard on the remote device to match the language selected in the application settings.</string>
+
+    <!-- No translatable -->
+
+    <string name="app_name" translatable="false">BT Remote</string>
+    <string name="empty" translatable="false" />
+
+    <!-- Third Library -->
+
+    <string name="github" translatable="false">Github</string>
+    <string name="apache_license_2.0" translatable="false">Apache License 2.0</string>
+    <string name="apache_license_2.0_url" translatable="false">http://www.apache.org/licenses/LICENSE-2.0</string>
+
+    <!-- Android Jetpack Libraries -->
+
+    <string name="androidx_jetpack_url" translatable="false">https://github.com/androidx/androidx</string>
+
+    <string name="androidx_core_ktx_name" translatable="false">Core KTX</string>
+    <string name="androidx_core_ktx_id" translatable="false">androidx.core:core-ktx</string>
+
+    <string name="androidx_activity_compose_name" translatable="false">Activity Compose</string>
+    <string name="androidx_activity_compose_id" translatable="false">androidx.activity:activity-compose</string>
+
+    <string name="androidx_compose_bom_name" translatable="false">Compose BOM</string>
+    <string name="androidx_compose_bom_id" translatable="false">androidx.compose:compose-bom</string>
+
+    <string name="androidx_compose_ui_name" translatable="false">Compose UI</string>
+    <string name="androidx_compose_ui_id" translatable="false">androidx.compose.ui:ui</string>
+
+    <string name="androidx_compose_ui_graphics_name" translatable="false">Compose UI Graphics</string>
+    <string name="androidx_compose_ui_graphics_id" translatable="false">androidx.compose.ui:ui-graphics</string>
+
+    <string name="androidx_compose_material3_name" translatable="false">Compose Material 3</string>
+    <string name="androidx_compose_material3_id" translatable="false">androidx.compose.material3:material3</string>
+
+    <string name="androidx_compose_material_icons_extended_name" translatable="false">Compose Material Icons Extended</string>
+    <string name="androidx_compose_material_icons_extended_id" translatable="false">androidx.compose.material:material-icons-extended</string>
+
+    <string name="androidx_lifecycle_runtime_compose_name" translatable="false">Lifecycle Runtime Compose</string>
+    <string name="androidx_lifecycle_runtime_compose_id" translatable="false">androidx.lifecycle:lifecycle-runtime-compose</string>
+
+    <string name="androidx_navigation_compose_name" translatable="false">Navigation Compose</string>
+    <string name="androidx_navigation_compose_id" translatable="false">androidx.navigation:navigation-compose</string>
+
+    <string name="androidx_data_store_preferences_name" translatable="false">DataStore Preferences</string>
+    <string name="androidx_data_store_preferences_id" translatable="false">androidx.datastore:datastore-preferences</string>
+
+    <!-- Koin Library -->
+    <string name="koin_name" translatable="false">Koin AndroidX Compose</string>
+    <string name="koin_id" translatable="false">io.insert-koin:koin-androidx-compose</string>
+    <string name="koin_url" translatable="false">https://github.com/InsertKoinIO/koin</string>
+
+</resources>

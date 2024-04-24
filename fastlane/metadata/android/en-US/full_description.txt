@@ -1,0 +1,15 @@
+Turn your smartphone into a Bluetooth remote control to easily navigate and interact with your Android TV.
+
+Features:
+
+- Wireless control via Bluetooth connection.
+- Includes all necessary buttons for remote control of your device.
+- Support for integrated mouse and keyboard.
+- No additional app installation required on your Android TV device thanks to HID protocol.
+- Modern and responsive user interface.
+- Developed with Kotlin, Jetpack Compose, and Material 3.
+- Privacy-focused with no data collection (internet permission disabled).
+- No advertisements.
+- Open source.
+
+The source code is available here: https://gitlab.com/Atharok/BtRemote

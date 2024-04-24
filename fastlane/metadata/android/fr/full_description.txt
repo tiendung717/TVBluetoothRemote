@@ -1,0 +1,15 @@
+Transformez votre smartphone en une télécommande Bluetooth pour naviguer et interagir aisément avec votre téléviseur ou Box TV fonctionnant sous Android TV.
+
+Fonctionnalités :
+
+- Contrôle sans fil via connexion Bluetooth.
+- Inclut tous les boutons nécessaires pour le contrôle à distance de votre appareil.
+- Prise en charge de la souris et du clavier intégrés.
+- Aucune application à installer sur votre appareil Android TV grâce au protocole HID.
+- Interface utilisateur moderne et réactive.
+- Développé avec Kotlin, Jetpack Compose et Material 3.
+- Respect de la vie privée sans collecte de données (permission internet désactivée).
+- Aucune publicité.
+- Open source.
+
+Le code source est disponible ici : https://gitlab.com/Atharok/BtRemote

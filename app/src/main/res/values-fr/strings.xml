@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">Fermer</string>
+    <string name="error">Error</string>
+
+    <!-- Bluetooth Support -->
+    <string name="bluetooth_not_supported_message">Le Bluetooth n\'est pas pris en charge sur cet appareil.</string>
+
+    <!-- Bluetooth Permission -->
+    <string name="permission">Permission</string>
+    <string name="bluetooth_permission_not_granted">Permission non accordée</string>
+    <string name="bluetooth_permission_message">Vous devez autoriser l\'accès au Bluetooth.</string>
+    <string name="bluetooth_permission_button">Autoriser</string>
+    <string name="bluetooth_permission_denied_message">Vous avez refusé l\'accès au Bluetooth.</string>
+
+    <!-- Bluetooth Activation -->
+    <string name="activation">Activation</string>
+    <string name="bluetooth_disabled_info">Bluetooth désactivé</string>
+    <string name="bluetooth_disabled_message">Le Bluetooth de votre appareil doit être activé pour se connecter à l\'appareil distant.</string>
+    <string name="bluetooth_enabled_button">Activer le Bluetooth</string>
+
+    <!-- Bluetooth Bonded Devices -->
+    <string name="devices">Appareils</string>
+    <string name="paired_devices">Appareils enregistrés</string>
+
+    <!-- Bluetooth Pairing -->
+    <string name="pairing_a_device">Associer un appareil</string>
+    <string name="available_devices">Appareils disponibles</string>
+    <string name="bluetooth_pairing_device_not_found">Aucun appareil n\'a été détecté.</string>
+    <string name="refresh">Actualiser</string>
+
+    <!-- Bluetooth Connecting -->
+    <string name="connection">Connexion</string>
+    <string name="bluetooth_device_connecting_message">Tentative de connexion au périphérique \"%1$s\"…</string>
+    <string name="bluetooth_device_disconnecting_message">Déconnexion de \"%1$s\"…</string>
+    <string name="bluetooth_failed_to_register_app_message">Échec lors de l\'enregistrement de l\'application.</string>
+    <string name="bluetooth_failed_to_connect_to_device">La tentative de connexion à l\'appareil distant a échoué.</string>
+    <string name="bluetooth_failed_try_again">Veuillez réessayer.</string>
+
+    <!-- Remote Screen -->
+    <string name="remote">Télécommande</string>
+    <string name="more">Plus</string>
+    <string name="disconnect">Se déconnecter</string>
+    <string name="direction_arrows">Flèches de direction</string>
+
+    <!-- Settings -->
+    <string name="settings">Paramètres</string>
+    <string name="appearance">Apparence</string>
+    <string name="theme">Thème</string>
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_black">Vrai noir pour le thème sombre</string>
+    <string name="theme_black_oled_info">Utilise moins d\'énergie sur les écrans OLED</string>
+    <string name="dynamic_colors">Couleurs dynamiques</string>
+    <string name="mouse_pointer_speed">Vitesse du pointeur</string>
+    <string name="invert_mouse_scrolling_direction">Inverser le sens du défilement</string>
+    <string name="keyboard_and_input_field">Clavier et champ de saisie</string>
+    <string name="clear_input_field">Effacer le champ de saisie après l\'envoi du texte</string>
+    <string name="about">À propos</string>
+    <string name="language">Langue</string>
+    <string name="third_party_library">Bibliothèques tierces</string>
+    <string name="website">Site web</string>
+    <string name="source_code">Code source</string>
+
+    <!-- Keyboard -->
+    <string name="keyboard">Clavier</string>
+    <string name="keyboard_language">Langue du clavier</string>
+    <string name="keyboard_language_info">Assurez-vous que la langue du clavier choisie soit identique à celle configurée sur l\'appareil distant.</string>
+    <string name="keyboard_us">Anglais (États-Unis)</string>
+    <string name="keyboard_uk">Anglais (Royaume-Uni)</string>
+    <string name="keyboard_es">Espagnol</string>
+    <string name="keyboard_fr">Français</string>
+    <string name="keyboard_de">Allemand</string>
+    <string name="send">Envoyer</string>
+    <string name="enter">Entrer</string>
+    <string name="escape">Echap</string>
+    <string name="delete">Supprimer</string>
+
+    <!-- Remote button description -->
+    <string name="pick">Choisir</string>
+    <string name="up">Haut</string>
+    <string name="down">Bas</string>
+    <string name="left">Gauche</string>
+    <string name="right">Droite</string>
+    <string name="play">Jouer</string>
+    <string name="pause">Pause</string>
+    <string name="previous">Précédent</string>
+    <string name="next">Suivant</string>
+    <string name="volume_increase">Augmentation du volume</string>
+    <string name="volume_decrease">Diminution du volume</string>
+    <string name="brightness_increase">Augmentation de le luminosité</string>
+    <string name="brightness_decrease">Diminution de la luminosité</string>
+    <string name="mute">Sourdine</string>
+    <string name="home">Accueil</string>
+    <string name="back">Retour</string>
+    <string name="standby">Veille</string>
+    <string name="next_channel">Chaîne suivante</string>
+    <string name="previous_channel">Chaîne précédente</string>
+
+    <!-- Mouse -->
+    <string name="mouse">Souris</string>
+    <string name="mouse_click_left">Clique gauche</string>
+    <string name="mouse_click_right">Clique droit</string>
+    <string name="mouse_click_middle">Clique milieu</string>
+    <string name="mouse_wheel_up">Glisser vers le haut</string>
+    <string name="mouse_wheel_down">Glisser vers le bas</string>
+    <string name="mouse_pad_tap">Tap</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Connexion Bluetooth HID</string>
+    <string name="connected_on">Connecté sur %1$s</string>
+
+    <!-- Help messages -->
+    <string name="help">Aide</string>
+
+    <string name="help_select_device_from_list">Sélectionnez l\'appareil auquel vous souhaitez vous connecter dans la liste des appareils enregistrés.</string>
+    <string name="help_missing_device_title">Appareil manquant</string>
+    <string name="help_missing_device_message">Si l\'appareil distant ne s\'affiche pas dans la liste des appareils enregistrés, vous devez l\'associer en appuyant sur l\'icône présente dans la barre supérieure.</string>
+    <string name="help_connection_initialization_error_title">Erreur d\'initialisation</string>
+    <string name="help_connection_initialization_error_message_1">Si vous rencontrez les erreurs \"%1$s\" ou \"%2$s\":</string>
+    <string name="help_connection_initialization_error_check_1">• Veuillez vérifier qu\'aucun autre service Bluetooth ne fonctionne en arrière-plan.</string>
+    <string name="help_connection_initialization_error_check_2">• Essayez de vous reconnecter plusieurs fois.</string>
+    <string name="help_connection_initialization_error_message_2">Si l\'erreur persiste, il est possible que le processus Bluetooth ait été interrompu de manière inattendue. Pour corriger ce problème, veuillez désactiver le Bluetooth de votre appareil, puis réactivez-le.</string>
+    <string name="help_device_failed_connection_title">Échec de la connexion</string>
+    <string name="help_device_failed_connection_message_1">Si vous ne parvenez pas à vous connecter à l\'appareil distant, veuillez vous assurer de suivre les instructions ci-dessous :</string>
+    <string name="help_device_failed_connection_check_1">• Vérifiez que l\'appareil distant fonctionne sous Android ou Android TV.</string>
+    <string name="help_device_failed_connection_check_2">• Vérifiez que la fonction Bluetooth est activée sur l\'appareil distant.</string>
+    <string name="help_device_failed_connection_check_3">• Assurez-vous que les deux appareils sont suffisamment proches l\'un de l\'autre.</string>
+    <string name="help_device_failed_connection_message_2">Si malgré ces vérifications vous ne parvenez toujours pas à vous connecter à l\'appareil distant, procédez comme suit :</string>
+    <string name="help_device_failed_connection_check_5">• Dissociez les deux appareils, à la fois sur l\'appareil actuel et sur l\'appareil distant.</string>
+    <string name="help_device_failed_connection_check_6">• Réassociez les deux appareils en appuyant sur l\'icône située dans la barre supérieure.</string>
+    <string name="help_device_failed_connection_message_3">Si le problème persiste, assurez-vous que le capteur Bluetooth de vos appareils ne soit pas défectueux.</string>
+
+    <string name="help_paring_select_device_from_list">Sélectionnez l\'appareil que vous souhaitez appairer dans la liste des appareils disponibles.</string>
+    <string name="help_pairing_missing_device_message_1">Si l\'appareil que vous souhaitez appairer ne s\'affiche pas dans la liste des appareils disponibles, suivez les instructions suivantes :</string>
+    <string name="help_pairing_missing_device_check_1">@string/help_device_failed_connection_check_2</string>
+    <string name="help_pairing_missing_device_check_2">• Assurez-vous que la visibilité Bluetooth est activée sur l\'appareil distant.</string>
+    <string name="help_pairing_missing_device_check_3">@string/help_device_failed_connection_check_3</string>
+    <string name="help_pairing_missing_device_check_location_for_android_11_or_less">• Assurez-vous que la localisation est activée sur votre appareil.</string>
+    <string name="help_pairing_connection_initialization_error_message_1">Si vous avez réussi à associer les deux appareils mais que vous rencontrez les erreurs \"%1$s\" ou \"%2$s\" :</string>
+    <string name="help_pairing_device_failed_connection_message_1">Si vous avez réussi à associer les deux appareils mais que vous ne parvenez pas à vous connecter à l\'appareil distant, veuillez vous assurer de suivre les instructions ci-dessous :</string>
+
+    <string name="help_remote_control_buttons_are_not_working_title">Boutons de la télécommande</string>
+    <string name="help_remote_control_buttons_are_not_working_message">Si le clavier, la souris ou certains boutons ne fonctionnent pas, suivez les instructions suivantes :</string>
+    <string name="help_remote_control_buttons_are_not_working_check_1">@string/help_device_failed_connection_check_1</string>
+    <string name="help_remote_control_buttons_are_not_working_check_2">• Déconnectez-vous de l\'appareil distant.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_3">• Dissociez les deux appareils, à la fois sur cet appareil et sur l\'appareil distant.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_4">• Réassociez ensuite les deux appareils via cette application.</string>
+    <string name="help_keyboard_wrong_character_sent_message">Si les caractères envoyés ne sont pas corrects, vous devez configurer le clavier physique sur l\'appareil distant pour qu\'il soit dans la même langue que celle sélectionnée dans les paramètres de l\'application.</string>
+
+</resources>
