@@ -11,7 +11,7 @@ import androidx.compose.animation.togetherWith
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 
-private const val ANIMATED_CONTENT_DURATION = 500
+private const val ANIMATED_CONTENT_DURATION = 250
 
 @Composable
 fun <T> FadeAnimatedContent(
