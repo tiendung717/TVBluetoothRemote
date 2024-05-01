@@ -1,0 +1,35 @@
+stages:
+  - build
+  - upload_to_package_registry
+  - create_release_asset
+
+build:
+  stage: build
+  image: fabernovel/android:api-34-v1.8.0
+  variables:
+    SECURE_FILES_DOWNLOAD_PATH: './.secure_files/'
+  script:
+    - apt update && apt install -y curl
+    - curl --silent "https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/download-secure-files/-/raw/main/installer" | bash
+    - ./gradlew --stacktrace assembleDefaultRelease
+  artifacts:
+    paths:
+      - app/build/outputs/apk/default/release/
+  only:
+    - tags
+      
+upload_to_package_registry:
+  stage: upload_to_package_registry
+  image: curlimages/curl:latest
+  script:
+    - 'curl --header "JOB-TOKEN: ${CI_JOB_TOKEN}" --upload-file "app/build/outputs/apk/default/release/app-default-release.apk" "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/release/${CI_COMMIT_TAG}/bt-remote-${CI_COMMIT_TAG}.apk"'
+  only:
+    - tags
+    
+create_release_asset:
+  stage: create_release_asset
+  image: curlimages/curl:latest
+  script:
+    - 'curl --request POST --data name="bt-remote-${CI_COMMIT_TAG}.apk" --data url="${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/release/${CI_COMMIT_TAG}/bt-remote-${CI_COMMIT_TAG}.apk" --data filepath="/bt-remote-${CI_COMMIT_TAG}.apk" --header "JOB-TOKEN: ${CI_JOB_TOKEN}" "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/releases/${CI_COMMIT_TAG}/assets/links"'
+  only:
+    - tags

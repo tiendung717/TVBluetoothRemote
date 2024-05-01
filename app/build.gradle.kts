@@ -20,6 +20,15 @@ android {
         }
     }
 
+    signingConfigs {
+        create("release") {
+            System.getenv("ANDROID_KEY_STORE_FILE")?.let { storeFile = file(it) }
+            System.getenv("ANDROID_KEY_STORE_PASSWORD")?.let { storePassword = it }
+            System.getenv("ANDROID_KEY_ALIAS")?.let { keyAlias = it }
+            System.getenv("ANDROID_KEY_PASSWORD")?.let { keyPassword = it }
+        }
+    }
+
     buildTypes {
         debug {
             isDebuggable = true
@@ -41,10 +50,11 @@ android {
     productFlavors {
         create("default") {
             dimension = "version"
+            signingConfig = signingConfigs.getByName("release")
         }
-        create("fdroid") {
+        create("gplay") {
             dimension = "version"
-            applicationIdSuffix = ".fdroid"
+            applicationIdSuffix = ".gplay"
         }
     }
 
