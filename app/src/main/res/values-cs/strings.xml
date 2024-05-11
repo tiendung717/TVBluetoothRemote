@@ -149,14 +149,4 @@
     <string name="help_remote_control_buttons_are_not_working_check_4">• Znovu spárujte zařízení za použití této aplikace.</string>
     <string name="help_keyboard_wrong_character_sent_message">Pokud zadávané znaky neodpovídají těm zadaným, musíte nastavit fyzickou klávesnici na vzdáleném zařízení tak, aby odpovídala klávesnici zvolené v nastavení.</string>
 
-    <!-- No translatable -->
-
-    <string name="empty" translatable="false" />
-
-    <!-- Third Library -->
-
-    <!-- Android Jetpack Libraries -->
-
-    <!-- Koin Library -->
-
 </resources>
