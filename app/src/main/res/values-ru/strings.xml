@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="close">Закрыть</string>
+  <string name="error">Ошибка</string>
+
+  <!-- Bluetooth Support -->
+  <string name="bluetooth_not_supported_message">Ваше устройство не поддерживает Bluetooth.</string>
+
+  <!-- Bluetooth Permission -->
+  <string name="permission">Разрешение</string>
+  <string name="bluetooth_permission_not_granted">Разрешение отменено</string>
+  <string name="bluetooth_permission_message">Вы должны разрешить доступ к Bluetooth.</string>
+  <string name="bluetooth_permission_button">Авторизовать</string>
+  <string name="bluetooth_permission_denied_message">Вы запретили доступ к Bluetooth.</string>
+
+  <!-- Bluetooth Activation -->
+  <string name="activation">Активация</string>
+  <string name="bluetooth_disabled_info">Bluetooth отключён</string>
+  <string name="bluetooth_disabled_message">Для подключения к удаленному устройству на вашем устройстве должен быть включен Bluetooth.</string>
+
+  <!-- Bluetooth Bonded Devices -->
+  <string name="bluetooth_enabled_button">Включить Bluetooth</string>
+  <string name="devices">Устройства</string>
+
+  <!-- Bluetooth Pairing -->
+  <string name="paired_devices">Сопряженные устройства</string>
+  <string name="pairing_a_device">Сопряжение устройства</string>
+  <string name="available_devices">Доступные устройства</string>
+  <string name="bluetooth_pairing_device_not_found">Ни одно устройство не обнаружено.</string>
+
+  <!-- Bluetooth Connecting -->
+  <string name="refresh">Обновить</string>
+  <string name="connection">Соединение</string>
+  <string name="bluetooth_device_connecting_message">Попытка подключения к устройству «%1$s»…</string>
+  <string name="bluetooth_device_disconnecting_message">Отключение «%1$s»…</string>
+  <string name="bluetooth_failed_to_register_app_message">Невозможность зарегистрировать приложение.</string>
+  <string name="bluetooth_failed_to_connect_to_device">Попытка подключения к удаленному устройству не удалась.</string>
+  <string name="bluetooth_failed_try_again">Попробуйте ещё раз</string>
+
+  <!-- Remote Screen -->
+  <string name="remote">Удалённый</string>
+  <string name="more">Подробнее</string>
+  <string name="disconnect">Разъединить</string>
+  <string name="direction_arrows">Стрелки направления</string>
+
+  <!-- Settings -->
+  <string name="settings">Настройки</string>
+  <string name="appearance">Внешний вид</string>
+  <string name="theme">Тема</string>
+  <string name="theme_system">Как в системе</string>
+  <string name="theme_light">Светлая</string>
+  <string name="theme_dark">Тёмная</string>
+  <string name="theme_black">Настоящий чёрный цвет для тёмной темы</string>
+  <string name="theme_black_oled_info">Использует меньше энергии на OLED-экранах</string>
+  <string name="dynamic_colors">Динамические цвета</string>
+  <string name="mouse_pointer_speed">Скорость указателя</string>
+  <string name="invert_mouse_scrolling_direction">Инвертировать направление прокрутки</string>
+  <string name="keyboard_and_input_field">Клавиатура и поле ввода</string>
+  <string name="clear_input_field">Очистить поле ввода после отправки текста</string>
+  <string name="about">О приложении</string>
+  <string name="language">Язык</string>
+  <string name="third_party_library">Сторонние библиотеки</string>
+  <string name="website">Сайт</string>
+  <string name="source_code">Исходный код</string>
+
+  <!-- Keyboard -->
+  <string name="keyboard">Клавиатура</string>
+  <string name="keyboard_language">Язык клавиатуры</string>
+  <string name="keyboard_language_info">Убедитесь, что выбранный язык клавиатуры соответствует языку, настроенному на удаленном устройстве.</string>
+  <string name="keyboard_us">English (United States)</string>
+  <string name="keyboard_uk">English (United Kingdom)</string>
+  <string name="keyboard_es">Spanish</string>
+  <string name="keyboard_fr">French</string>
+  <string name="keyboard_de">German</string>
+  <string name="send">Отправить</string>
+  <string name="enter">Войти</string>
+  <string name="escape">Выйти</string>
+  <string name="delete">Удалить</string>
+
+  <!-- Remote button description -->
+  <string name="pick">Выбрать</string>
+  <string name="up">Вверх</string>
+  <string name="down">Вниз</string>
+  <string name="left">Влево</string>
+  <string name="right">Вправо</string>
+  <string name="play">Играть</string>
+  <string name="pause">Пауза</string>
+  <string name="previous">Предыдущий</string>
+  <string name="next">Следующий</string>
+  <string name="volume_increase">Увеличение громкости</string>
+  <string name="volume_decrease">Уменьшение громкости</string>
+  <string name="brightness_increase">Увеличение яркости</string>
+  <string name="brightness_decrease">Уменьшение яркости</string>
+  <string name="mute">Заглушить</string>
+  <string name="home">Домой</string>
+  <string name="back">Назад</string>
+  <string name="standby">В режим ожидания</string>
+  <string name="next_channel">Следующий канал</string>
+  <string name="previous_channel">Предыдущий канал</string>
+
+  <!-- Mouse -->
+  <string name="mouse">Мышь</string>
+  <string name="mouse_click_left">Щёлкните левой кнопкой мыши</string>
+  <string name="mouse_click_right">Щёлкните правой кнопкой мыши</string>
+  <string name="mouse_click_middle">Щёлкните средней кнопкой</string>
+  <string name="mouse_wheel_up">Проведите пальцем вверх</string>
+  <string name="mouse_wheel_down">Проведите пальцем вниз</string>
+  <string name="mouse_pad_tap">Нажмите</string>
+
+  <!-- Notification -->
+  <string name="notification_channel_name">Соединение Bluetooth HID</string>
+  <string name="connected_on">Подключено на %1$s</string>
+
+  <!-- Help messages -->
+  <string name="help">Помощь</string>
+
+  <string name="help_select_device_from_list">Выберите устройство, к которому вы хотите подключиться, из списка сопряженных устройств.</string>
+  <string name="help_missing_device_title">Отсутствует устройство</string>
+  <string name="help_missing_device_message">Если удаленное устройство не отображается в списке сопряженных устройств, необходимо выполнить его сопряжение, нажав на значок в верхней панели.</string>
+  <string name="help_connection_initialization_error_title">Ошибка инициализации</string>
+  <string name="help_connection_initialization_error_message_1">Если вы столкнулись с ошибками «%1$s» или «%2$s»:</string>
+  <string name="help_connection_initialization_error_check_1">• Убедитесь, что никакая другая служба Bluetooth не работает в фоновом режиме.</string>
+  <string name="help_connection_initialization_error_check_2">• Попробуйте подключиться несколько раз.</string>
+  <string name="help_connection_initialization_error_message_2">Если ошибка не устранена, возможно, процесс Bluetooth был неожиданно прерван. Чтобы решить эту проблему, отключите Bluetooth на своем устройстве, а затем снова включите его.</string>
+  <string name="help_device_failed_connection_title">Сбой подключения</string>
+  <string name="help_device_failed_connection_message_1">Если вы не можете подключиться к удаленному устройству, следуйте приведенным ниже инструкциям:</string>
+  <string name="help_device_failed_connection_check_1">• Убедитесь, что удаленное устройство работает на Android или Android TV.</string>
+  <string name="help_device_failed_connection_check_2">• Убедитесь, что на удаленном устройстве включена функция Bluetooth.</string>
+  <string name="help_device_failed_connection_check_3">• Убедитесь, что оба устройства находятся достаточно близко друг к другу.</string>
+  <string name="help_device_failed_connection_message_2">Если, несмотря на эти проверки, вы по-прежнему не можете подключиться к удаленному устройству, выполните следующие действия:</string>
+  <string name="help_device_failed_connection_check_5">• Разорвите сопряжение двух устройств как на текущем, так и на удаленном устройстве.</string>
+  <string name="help_device_failed_connection_check_6">• Выполните повторное сопряжение двух устройств, нажав значок, расположенный на верхней панели.</string>
+  <string name="help_device_failed_connection_message_3">Если проблема сохраняется, убедитесь, что датчик Bluetooth устройства исправен.</string>
+
+  <string name="help_paring_select_device_from_list">Выберите устройство, с которым вы хотите установить сопряжение, из списка доступных устройств.</string>
+  <string name="help_pairing_missing_device_message_1">Если устройство, с которым вы хотите выполнить сопряжение, не отображается, следуйте приведенным ниже инструкциям:</string>
+  <string name="help_pairing_missing_device_check_1"></string>
+  <string name="help_pairing_missing_device_check_2">• Убедитесь, что видимость Bluetooth включена на удаленном устройстве.</string>
+  <string name="help_pairing_missing_device_check_3"></string>
+  <string name="help_pairing_missing_device_check_location_for_android_11_or_less">• Убедитесь, что службы определения местоположения включены на вашем устройстве.</string>
+  <string name="help_pairing_connection_initialization_error_message_1">Если вы успешно связали оба устройства, но столкнулись с ошибками «%1$s» или «%2$s»:</string>
+  <string name="help_pairing_device_failed_connection_message_1">Если вы успешно соединили оба устройства, но не можете подключиться к удаленному устройству, обязательно следуйте инструкциям ниже:</string>
+
+  <string name="help_remote_control_buttons_are_not_working_title">Кнопки дистанционного управления</string>
+  <string name="help_remote_control_buttons_are_not_working_message">Если клавиатура, мышь или некоторые кнопки не работают, следуйте инструкциям ниже:</string>
+  <string name="help_remote_control_buttons_are_not_working_check_1"></string>
+  <string name="help_remote_control_buttons_are_not_working_check_2">• Отключитесь от удаленного устройства.</string>
+  <string name="help_remote_control_buttons_are_not_working_check_3">• Удалите сопряжение устройства друг у друга, как на этом устройстве, так и на удаленном устройстве.</string>
+  <string name="help_remote_control_buttons_are_not_working_check_4">• Затем повторно выполните сопряжение двух устройств с помощью этого приложения.</string>
+  <string name="help_keyboard_wrong_character_sent_message">Если отправляемые символы некорректны, вам нужно настроить физическую клавиатуру на удаленном устройстве в соответствии с языком, выбранным в настройках приложения.</string>
+
+
+</resources>
