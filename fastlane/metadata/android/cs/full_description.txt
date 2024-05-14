@@ -1,0 +1,15 @@
+Přeměňte váš chytrý telefon na Bluetooth ovladač, abyste mohli jednoduše ovládat vaši Android TV.
+
+Funkce:
+
+- Bezdrátové ovládání pomocí Bluetooth.
+- Aplikace obsahuje všechna důležitá tlačítka pro ovládání vašeho zařízení.
+- Podpora pro integrovanou myš i klávesnici.
+- Na vaší Android TV není třeba instalovat žádnou další aplikace díky HID protokolu.
+- Moderní a intuitivní rozhraní.
+- Vyvinuto za použití Kotlinu, Jetpack Compose a Material 3.
+- Zaměřeno na soukromí bez jakéhokoliv sběru dat (není povolen přístup k internetu).
+- Bez reklam.
+- Open source.
+
+Zdrojový kód je k dispozici zde: https://gitlab.com/Atharok/BtRemote

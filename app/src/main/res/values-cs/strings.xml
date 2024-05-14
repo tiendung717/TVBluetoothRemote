@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close">Zavřít</string>
+    <string name="error">Error</string>
+
+    <!-- Bluetooth Support -->
+    <string name="bluetooth_not_supported_message">Toto zařízení nepodporuje Bluetooth.</string>
+
+    <!-- Bluetooth Permission -->
+    <string name="permission">Oprávnění</string>
+    <string name="bluetooth_permission_not_granted">Oprávnění nebylo uděleno</string>
+    <string name="bluetooth_permission_message">Musíte povolit přístup k Bluetooth.</string>
+    <string name="bluetooth_permission_button">Povolit</string>
+    <string name="bluetooth_permission_denied_message">Zakázali jste přístup k Bluetoooth.</string>
+
+    <!-- Bluetooth Activation -->
+    <string name="activation">Aktivace</string>
+    <string name="bluetooth_disabled_info">Bluetooth vypnuto</string>
+    <string name="bluetooth_disabled_message">Musíte zapnout Bluetooth, abyste se mohli připojit k vašemu zařízení.</string>
+    <string name="bluetooth_enabled_button">Zapnout Bluetooth</string>
+
+    <!-- Bluetooth Bonded Devices -->
+    <string name="devices">Zařízení</string>
+    <string name="paired_devices">Spárovaná zařízení</string>
+    
+    <!-- Bluetooth Pairing -->
+    <string name="pairing_a_device">Párování</string>
+    <string name="available_devices">Dostupná zařízení</string>
+    <string name="bluetooth_pairing_device_not_found">Nebyla zjištěna žádná zařízení.</string>
+    <string name="refresh">Obnovit</string>
+
+    <!-- Bluetooth Connecting -->
+    <string name="connection">Připojení</string>
+    <string name="bluetooth_device_connecting_message">Pokus o připojení k  \"%1$s\" …</string>
+    <string name="bluetooth_device_disconnecting_message">Odpojování od \"%1$s\"…</string>
+    <string name="bluetooth_failed_to_register_app_message">Nepodařilo se registrovat aplikaci.</string>
+    <string name="bluetooth_failed_to_connect_to_device">Připojení k zařízení selhalo.</string>
+    <string name="bluetooth_failed_try_again">Prosím, zkuste to znovu.</string>
+
+    <!-- Remote Screen -->
+    <string name="remote">Ovladač</string>
+    <string name="more">Více</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="direction_arrows">Šipky</string>
+
+    <!-- Settings -->
+    <string name="settings">Nastavení</string>
+    <string name="appearance">Vzhled</string>
+    <string name="theme">Téma vzhledu</string>
+    <string name="theme_system">Systém</string>
+    <string name="theme_light">Světlý</string>
+    <string name="theme_dark">Tmavý</string>
+    <string name="theme_black">Použít čistě černou pro tmavý motiv</string>
+    <string name="theme_black_oled_info">Spotřebovává méně energine na OLED obrazovkách</string>
+    <string name="dynamic_colors">Dynamické barvy</string>
+    <string name="mouse_pointer_speed">Rychlost kurzoru</string>
+    <string name="invert_mouse_scrolling_direction">Obrátit směr posuvu</string>
+    <string name="keyboard_and_input_field">Klávesnice a vstup</string>
+    <string name="clear_input_field">Vyčistit vstupní pole po odeslání textu</string>
+    <string name="about">O aplikaci</string>
+    <string name="language">Jazyk</string>
+    <string name="third_party_library">Knihovny třetích stran</string>
+    <string name="website">Webové stránky</string>
+    <string name="source_code">Zdrojový kód</string>
+
+    <!-- Keyboard -->
+    <string name="keyboard">Klávesnice</string>
+    <string name="keyboard_language">Jazyk klávesnice</string>
+    <string name="keyboard_language_info">Ujistěte se, že vybraný jazyk klávesnice odpovídá zvolené klávesnici na cílovém zařízení.</string>
+    <string name="keyboard_us">Anglická (United States)</string>
+    <string name="keyboard_uk">Anglická (United Kingdom)</string>
+    <string name="keyboard_es">Španělská</string>
+    <string name="keyboard_fr">Francouzská</string>
+    <string name="keyboard_de">Německá</string>
+    <string name="send">Odeslat</string>
+    <string name="enter">Zadat</string>
+    <string name="escape">Escape</string>
+    <string name="delete">Delete</string>
+
+    <!-- Remote button description -->
+    <string name="pick">Vybrat</string>
+    <string name="up">Nahoru</string>
+    <string name="down">Dolů</string>
+    <string name="left">Doleva</string>
+    <string name="right">Doprava</string>
+    <string name="play">Spustit</string>
+    <string name="pause">Pozastavit</string>
+    <string name="previous">Předchozí</string>
+    <string name="next">Další</string>
+    <string name="volume_increase">Zasílit</string>
+    <string name="volume_decrease">Zeslabit</string>
+    <string name="brightness_increase">Zvýšit jas</string>
+    <string name="brightness_decrease">Snížit jas</string>
+    <string name="mute">Ztišit</string>
+    <string name="home">Domů</string>
+    <string name="back">Zpět</string>
+    <string name="standby">Standby</string>
+    <string name="next_channel">Další kanál</string>
+    <string name="previous_channel">Předchozí kanál</string>
+
+    <!-- Mouse -->
+    <string name="mouse">Myš</string>
+    <string name="mouse_click_left">Kliknutí levým tlačítkem myši</string>
+    <string name="mouse_click_right">Kliknutí pravým tlačítkem myši</string>
+    <string name="mouse_click_middle">Kliknutí prostředním tlačítkem myši</string>
+    <string name="mouse_wheel_up">Přejeďte prstem nahoru</string>
+    <string name="mouse_wheel_down">Přejeďte prstem nahoru</string>
+    <string name="mouse_pad_tap">Tap</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_name">Bluetooth HID připojení</string>
+    <string name="connected_on">Připojeno k %1$s</string>
+
+    <!-- Help messages -->
+    <string name="help">Nápověda</string>
+
+    <string name="help_select_device_from_list">Vyberte zařízení, které si přejete ovládat ze seznamu spárovaných zařízení.</string>
+    <string name="help_missing_device_title">Zařízení nevidím</string>
+    <string name="help_missing_device_message">Jestliže se zařízení nenachází v seznamu spárovaných zařízení, je třeba jej spárovat stiknutím ikony Bluetooth v horní liště.</string>
+    <string name="help_connection_initialization_error_title">Problém s inicializací</string>
+    <string name="help_connection_initialization_error_message_1">Pokud se projeví problém \"%1$s\" nebo \"%2$s\":</string>
+    <string name="help_connection_initialization_error_check_1">• Ujistěte se, že na pozadí neběží jiné služby Bluetooth.</string>
+    <string name="help_connection_initialization_error_check_2">• Zkuste se připojit vícekrát.</string>
+    <string name="help_connection_initialization_error_message_2">Pokud problém přetrvává, je možné že byl Bluetooth proces přerušen. Zkuste vypnout a zapnout Bluetooth.</string>
+    <string name="help_device_failed_connection_title">Připojení selhalo</string>
+    <string name="help_device_failed_connection_message_1">Pokud se nejste schopni připojit k zařízení, řiďtě se prosím následujícími pokyny:</string>
+    <string name="help_device_failed_connection_check_1">• Ujistěte se, že na vzdáleném zařízení běží Android nebo Android TV.</string>
+    <string name="help_device_failed_connection_check_2">• Ujistěte se, že na vzdáleném zařízení je zapnuto Bluetooth.</string>
+    <string name="help_device_failed_connection_check_3">• Ujistěte se, že zařízení je v dosahu.</string>
+    <string name="help_device_failed_connection_message_2">Pokud problém stále přetrvává, postupujte následovně:</string>
+    <string name="help_device_failed_connection_check_5">• Zrušte párování zařízení, a to jak na tomto zařízení, tak na vzdáleném zařázení.</string>
+    <string name="help_device_failed_connection_check_6">• Znovu spárujte vzdálené zařízení kliknutím na ikonu Bluetooth v horní liště.</string>
+    <string name="help_device_failed_connection_message_3">Pokud problém i nadále přetrvává, ujistěte se, že snímač Bluetooth na vašich zařízeních není vadný.</string>
+
+    <string name="help_paring_select_device_from_list">Vyberte zařízení, které chcete spárovat ze seznamu dostupných zařízení:</string>
+    <string name="help_pairing_missing_device_message_1">Pokud se zařízení, které se snažíte spárovat, nezobrazuje, postupujte podle následujích intrukcí:</string>
+    <string name="help_pairing_missing_device_check_1">@string/help_device_failed_connection_check_2</string>
+    <string name="help_pairing_missing_device_check_2">• Ujistěte se, že je vzdálené zařízení viditělné.</string>
+    <string name="help_pairing_missing_device_check_3">@string/help_device_failed_connection_check_3</string>
+    <string name="help_pairing_missing_device_check_location_for_android_11_or_less">• Ujistěte se, že jsou povoleny služby pro získávání polohy na tomto zařízení.</string>
+    <string name="help_pairing_connection_initialization_error_message_1">Pokud jste úspěšně spárovali obě zařízení, ale objevila se chyba \"%1$s\" nebo \"%2$s\":</string>
+    <string name="help_pairing_device_failed_connection_message_1">Pokud jste úspěšně spárovali obě zařízení, ale nejste schopni se připojit, postupujte podle následujích intrukcí:</string>
+
+    <string name="help_remote_control_buttons_are_not_working_title">Tlačítka ovládání</string>
+    <string name="help_remote_control_buttons_are_not_working_message">Pokud klávesnice, myš, nebo něktěrá tlačítka nefungují, postupujte podle následujích intrukcí:</string>
+    <string name="help_remote_control_buttons_are_not_working_check_1">@string/help_device_failed_connection_check_1</string>
+    <string name="help_remote_control_buttons_are_not_working_check_2">• Odpojte se od vzdáleného zařízení.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_3">• Zrušte párování zařízení, a to jak na tomto zařízení, tak na vzdáleném zařázení.</string>
+    <string name="help_remote_control_buttons_are_not_working_check_4">• Znovu spárujte zařízení za použití této aplikace.</string>
+    <string name="help_keyboard_wrong_character_sent_message">Pokud zadávané znaky neodpovídají těm zadaným, musíte nastavit fyzickou klávesnici na vzdáleném zařízení tak, aby odpovídala klávesnici zvolené v nastavení.</string>
+
+</resources>
